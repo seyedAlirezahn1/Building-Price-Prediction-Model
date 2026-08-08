@@ -13,5 +13,6 @@ for i in range(n):
     den += (X[i] - mean_x) ** 2
 
 w = num / den
-print(f"شیب خط: {w}") 
 
+b = mean_y - w * mean_x
+print(f"عرض از مبدأ: {b}")  
