@@ -15,4 +15,7 @@ for i in range(n):
 w = num / den
 
 b = mean_y - w * mean_x
-print(f"عرض از مبدأ: {b}")  
+
+metraj = 75
+price = w * metraj + b
+print(f"خونه {metraj} متری ≈ {price:.0f} میلیون")
