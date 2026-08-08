@@ -16,6 +16,6 @@ w = num / den
 
 b = mean_y - w * mean_x
 
-metraj = 75
+metraj = int(input("Enter the area : "))
 price = w * metraj + b
-print(f"خونه {metraj} متری ≈ {price:.0f} میلیون")
+print(f"Forecasted price : {price:,.0f}")
